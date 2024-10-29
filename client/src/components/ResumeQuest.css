@@ -1,0 +1,113 @@
+/* Container */
+.questiongeneration-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Section */
+.questiongeneration-input-section {
+  margin-bottom: 20px;
+}
+
+.questiongeneration-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.questiongeneration-textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  resize: vertical;
+}
+
+/* Generate Button */
+.questiongeneration-generate-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0070f3; /* Primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.questiongeneration-generate-button:hover {
+  background-color: #005bb5; /* Darker shade for hover */
+}
+
+/* Questions Section */
+.questiongeneration-questions-section {
+  margin-top: 20px;
+}
+
+.questiongeneration-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Question Item */
+.questiongeneration-question-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.questiongeneration-badge {
+  background-color: #0070f3; /* Primary color */
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Difficulty Badges */
+.questiongeneration-badge.easy {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.questiongeneration-badge.medium {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.questiongeneration-badge.hard {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Question Content */
+.questiongeneration-question-content {
+  flex: 1;
+}
+
+.questiongeneration-question-title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.questiongeneration-question-description {
+  margin: 0;
+  color: #6c757d;
+  font-size: 14px;
+}

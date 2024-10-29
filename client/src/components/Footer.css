@@ -1,0 +1,26 @@
+.footer {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: fixed; /* Keep it fixed at the bottom */
+    bottom: 0; /* Attach it to the bottom */
+    left: 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  

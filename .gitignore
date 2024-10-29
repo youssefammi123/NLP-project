@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+myenv/
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# MacOS system file
+.DS_Store

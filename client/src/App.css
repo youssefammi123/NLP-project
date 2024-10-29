@@ -1,0 +1,16 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container > *:not(footer) {
+  flex: 1; /* This will make the content above the footer take up all available space */
+}
