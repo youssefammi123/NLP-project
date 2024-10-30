@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm youssef</h1>
-<h3 align="center">A passionate student data scientiste engineering</h3>
+<h3 align="center">A passionate student data scientist engineering</h3>
 
 - 🔭 I’m currently working on **NLP Project for Recruitment**
 
